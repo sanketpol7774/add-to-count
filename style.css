@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .shopcart{
+    height: 15%;
+    width: 100%;
+   
+  }
+
+   .sanket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    margin-top: 3vw;
+ 
+  }
+
+
+  .parent{
+    height: 40%;
+    width: 50%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+
+  .shopcart img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+  }
+
+
+  
+  .cart {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+
+  }
+
+  .name h1{
+    font-family: Trebuchet MS;
+  }
+  
+  .cart-item {
+    height: 50%;
+    width: 100%;
+    display: flex;
+  }
+
+  .abc{
+    width: 2vw;
+    height: 2vw;
+  }
+  
+  .img {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    padding: 2vw;
+    /* background-color: chocolate; */
+
+    flex-direction: column;
+  }
+
+
+
+  .name h2{
+    font-weight: 500;
+  }
+
+  .abc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .count {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .price {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+  }
+  
+  .button  {
+    border-radius: 50%;
+    padding: 0.5vw ;
+    margin: 0.2vw;
+  }
+  
+  input {
+    border: none;
+    width: 3vw;
+    padding: 1vw;
+  }
+
+  .price :nth-child(1){
+    color: black;
+    font-weight: 600;
+  }
+  .price :nth-child(2){
+    color: darkcyan;
+  }
+  
+  .price :nth-child(3){
+    color: darkorange;
+  }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+<div class="parent">
+  
+  <div class="shopcart">
+    <div class="cart-item">
+      <div class="img ssp"> <h3>Shopping cart</h3></div>
+      <div class="name"></div>
+      <div class="count"></div>
+      <div class="price"> <button class="sanket"  onclick="removeAll()">removeAll</button></div>
+    </div>
+  </div>
+
+  <div class="cart">
+    <div class="cart-item">
+      <div class="img">
+        <img src="pepsi.jpeg" height="70%" width="40%" />
+      </div>
+      <div class="name">
+        <h1>PEPSI</h1>
+        <h5>250ml</h5>
+        <img class="abc" src="vej.png" alt="" />
+      </div>
+      <div class="count">
+        <button
+          class="abc"
+          onclick="changeCount('counter', 'price1', 60, 1)"
+        >
+          +
+        </button>
+        <input value="0" id="counter" />
+        <button
+          class="abc"
+          onclick="changeCount('counter', 'price1', 60, -1)"
+        >
+          -
+        </button>
+      </div>
+      <div class="price">
+       
+        <h2 id="price1">Rs.60</h2>
+        <h6>Save for later</h6>
+        <h6>Remove</h6>
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="img">
+        <img src="spritesp.png" height="70%" width="70%" />
+      </div>
+      <div class="name">
+        <h1>SPRITE</h1>
+        <h5>250ml</h5>
+        <img class="abc" src="vej.png" alt="" />
+      </div>
+      <div class="count">
+        <button
+          class="abc"
+          onclick="changeCount('sanket', 'price2', 60, 1)"
+        >
+          +
+        </button>
+        <input value="0" id="sanket" />
+        <button
+          class="abc"
+          onclick="changeCount('sanket', 'price2', 60, -1)"
+        >
+          -
+        </button>
+      </div>
+      <div class="price">
+        <h2 id="price2">Rs.60</h2>
+        <h6>Save for later</h6>
+        <h6>Remove</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

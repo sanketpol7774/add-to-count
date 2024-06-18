@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    flex: 2;
+}
+
+.item-price, .item-total-price {
+    flex: 1;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.item-quantity {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
